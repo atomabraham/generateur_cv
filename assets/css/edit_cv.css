@@ -1,0 +1,15 @@
+.accordion-button {
+	font-family: ;
+	font-size: 16px;
+	font-style: ;
+	font-weight: 600;
+	color: #000;
+}
+
+/*.accordion-button::after {
+	background-image: url("data::image/svg+xmlns,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' fill='black' stroke='currentColor' stroke-width='1.5' viewBox='0 0 24 24'><path d='M12 4.5v15m7.5-7.5h-15' stroke-linecap='round' stroke-linejoin='round'></path></svg>");
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: url("data::image/svg+xmlns,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' fill='black' stroke='currentColor' stroke-width='1.5' viewBox='0 0 24 24'><path d='M4.5 15.75l7.5-7.5 7.5 7.5' stroke-linecap='round' stroke-linejoin='round'></path></svg>");
+}*/

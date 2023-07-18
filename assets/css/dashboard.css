@@ -1,0 +1,122 @@
+
+.body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-image: linear-gradient(blue, white);
+  color: white;
+  width: auto;
+  height: 60px;
+}
+
+.vide {
+  width: 80%;
+}
+
+.menu {
+  width: 20%;
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.navbar img {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+.navbar select {
+  margin-left: auto;
+  color: white;
+  border: none;
+  margin-left: 30px;
+  background-color: transparent;
+}
+
+.wrap {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #f1f1f1;
+  width: 15%;
+  height: 1000px;
+}
+
+.content {
+  width: 85%;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sidebar a {
+  display:block;
+  color:black;
+  padding:16px;
+  text-decoration:none;
+}
+
+.sidebar a:hover {
+  background-color:#555;
+  color:white;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  bottom: 20px;
+  border-radius: 7px;
+
+}
+
+
+.grahbox{
+position: relative;
+width: 100%;
+padding: 20px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-gap: 30px;
+min-height: 200px;
+}
+
+.grahbox .box{
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+
+.main {
+  margin-left:200px;
+  padding-top:60px;
+}
+
+.chart-container {
+    display:flex; 
+ }
+ 
+ .chart-container > div { 
+    width:50%; 
+    padding-left :20px 
+ }
+ 
+ .table-responsive{
+    width :100%;
+    margin-top :03%;
+    border :7%;
+    padding :20; 
+ }
+ 
+ .myChart{
+    display :flex; 
+ }

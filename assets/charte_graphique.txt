@@ -1,0 +1,8 @@
+Couleurs : 
+		#000000 = noire;
+		#ffffff = blanc; 
+		#0d6efd = bleu (primary); 
+		#dc3545 = rouge (danger); 
+		#d9d9d9 = variante du blanc;
+
+Polices :

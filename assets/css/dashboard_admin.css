@@ -1,0 +1,113 @@
+.body {
+  padding-top: 70px;
+  font-family: Arial, sans-serif;
+}
+/* navbar header */
+.navbar {
+  background-image: linear-gradient(blue, white);
+  color: white;
+  width: auto;
+  height: 60px;
+}
+
+.vide {
+  width: 80%;
+}
+
+.menu {
+  width: 20%;
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.navbar img {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+/* navbar header */
+
+/*sidebar*/
+.sidebar,.div1 {
+  background-color: #f1f1f1;
+ height: 60vw;
+  
+}
+ul {
+margin-left: -20px;
+}
+
+a {
+  display:block;
+  color:black;
+  padding:16px;
+  text-decoration:none;
+}
+
+a:hover {
+  background-color:#555;
+  color:white;
+  margin-left: 60px;
+}
+/*sidebar-end*/
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+
+  /*graphique*/
+}
+.icon{
+  align-self: start;
+}
+.grahbox{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+  min-height: 200px;
+}
+
+.grahbox .box{
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+/*graphique-end*/
+
+/* main*/
+.main {
+  margin-left:200px;
+  padding-top:60px;
+}
+ul{
+  margin-right: 100px;
+}
+.chart-container > div { 
+  width:50%; 
+  padding-left :20px 
+}
+/*end-main*/
+
+/*table */
+.table-striped{
+  width :99%;
+  margin-top :22px;
+}
+tr{
+  text-align: center;
+}
+ /*end of table*/
+
+ .b_sub{
+  background:none;
+  border:none;
+}

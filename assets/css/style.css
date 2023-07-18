@@ -1,0 +1,75 @@
+form {
+	width: 350px;
+	height: fit-content;
+	padding: 15px;
+	margin-top: 35%;
+ 	background-color: #f8f9fa;
+	border-radius:7px;
+	box-shadow: 2px 2px 15px 2px #ced4da;
+	/*position: absolute;
+	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);*/
+}
+
+.item-group {
+	margin-bottom: 10px;
+}
+
+input:focus {
+  border-color: #0dcaf0;
+}
+
+#firstName, #name, #mail, #password, #confPassword, #btnLogin, #btnSignup {
+	width: 100%;
+	height: 38px;
+	border-radius: 5px;
+}
+
+#firstName, #name, #mail, #password, #confPassword {
+	border: 1.98px solid black;
+	padding-left: 34px;
+	padding-right: 34px;
+}
+
+.left-icon {
+	margin-top: 6.5px;
+	margin-left: 5px;
+	position: absolute;
+}
+
+.right-icon {
+	margin-left: -33px;
+	cursor: pointer;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+}
+
+/* Here is stylesheet for errors */
+.firstNameError, .nameError, .emailError, .passwordError, .confPasswordError {
+  width  : 100%;
+  font-size: 80%;
+  color: red;
+}
+
+input[type=checkbox] {
+	width: 16px;
+	height: 16px;
+	border-radius: 5px;
+}
+
+#btnLogin, #btnSignup {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	border: none;
+	background-color: #113cf9;
+}
+
+a {
+	text-decoration: none;
+	color: #113cf9;
+}
